@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="prototype.css" />
   <body>
     <div class="container">
-      <h1>Live weather Information yeahh!</h1>
+<<<<<<< HEAD
+      <h1>Live weather Information</h1>
       <div class="search-bar">
         <input type="text" id="city-input" placeholder="Enter city name" />
         <button onclick="handleSearch()">Search</button>
@@ -40,4 +41,35 @@
     </div>
     <script src="prototype.js"></script>
   </body>
+=======
+        <h1>Live weather update</h1>
+        <div class="search-bar"> 
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button onclick="handleSearch()">Search</button>
+        </div>    
+        <div class="weather-info">
+            <p><strong>City:</strong> <span id="city"></span></p>
+            <p><strong>Day and Date:</strong> <span id="date"></span></p>
+            <p><strong>Main Weather Condition:</strong> <span id="main-condition"></span></p>
+            <p><strong>Weather Condition:</strong> <span id="condition"></span></p>
+            <p><img id="icon" src="" alt="Weather Icon"></p>
+        </div>
+        <table>
+             <tr>
+                <th>Temperature</th>
+                <th>Pressure</th>
+                <th>Humidity</th>
+                <th>Wind Speed and Direction</th>
+            </tr>
+            <tr>
+                <td id="temperature"></td>
+                <td id="pressure"></td>
+                <td id="humidity"></td>
+                <td id="wind"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="prototype.js"></script>
+</body>
+>>>>>>> 81bb5cdebcaf848324b613104d59fd80d1816d12
 </html>
